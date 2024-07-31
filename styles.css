@@ -1,0 +1,78 @@
+
+
+body{
+    background-color: black;
+    position: relative;
+    color: white;
+}
+
+
+table{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    border-spacing: 10px;
+}
+
+th{
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+td{
+    font-family: 'Arial'; 
+}
+
+.code{
+    color: crimson;
+}
+
+div{
+    margin: 0 auto;
+    border: 2px dotted white;
+    border-radius: 10px;
+    width: 1000px;
+    position: relative;
+}
+p{
+    text-align: center;
+    font-size: large;
+}
+
+.button_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px; /* Add space between paragraph and buttons */
+        border: 0;
+}
+
+.button{
+    margin: 10px;
+    display: block;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    font-size: larger;
+    border-radius: 15px;
+}
+
+
+.button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+h2, h1{
+    color: crimson;
+}
